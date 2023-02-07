@@ -1,0 +1,40 @@
+{
+	"type": "package",
+	"handle": "example-image-generator",
+	"version": "1.0.13",
+	"description": "",
+	"author": "",
+	"entrypoint": "api.handler",
+	"public": true,
+	"build_config": {
+		"ignore": [
+			"tests",
+			"examples"
+		]
+	},
+	"configTemplate": {
+		"openai_api_key": {
+			"type": "string",
+			"description": null,
+			"default": ""
+		}
+	},
+	"steamshipRegistry": {
+		"tagline": null,
+		"tagline2": null,
+		"usefulFor": null,
+		"videoURL": null,
+		"githubURL": null,
+		"demoURL": null,
+		"jupyterURL": null,
+		"authorGithub": null,
+		"authorName": null,
+		"authorEmail": null,
+		"authorTwitter": null,
+		"authorURL": null,
+		"tags": [
+			"Prompt API",
+			"Image Generator"
+		]
+	}
+}
